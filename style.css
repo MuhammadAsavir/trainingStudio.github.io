@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    transition: all 0.5s ease;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .orange {
+    color: #ed563b !important;
+  }
+
+  header {
+    width: 100%;
+    height: 0vh;
+    padding: 40px 0 40px 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    background: rgba(250, 250, 250, 0.1);
+}
+  header .title {
+    float: left;
+    margin-top: -20px;
+  }
+
+  header .title h1 {
+    font-weight: bolder;
+    font-style: normal;
+    color: white;
+    margin-left: 110px;
+  }
+  header .nav-menu {
+    float: right;
+    width: 55%;
+    margin-top: -18px;
+    background: transparent;
+  }
+  header .nav-menu .navbar ul {
+    display: inline-block;
+  }
+  header .nav-menu .navbar ul li {
+    display: inline;
+    margin-right: 35px;
+    font-size: 14px;
+  }
+  header .nav-menu .navbar ul li a {
+    color: white;
+    font-weight: bolder;
+  }
+  header .nav-menu .navbar ul li a:hover {
+    color: #ed563b;
+  }
+  header .nav-menu .navbar .sign-up-btn {
+    display: inline-block;
+    font-size: 14px;
+    background-color: #ed563b;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+  header .nav-menu .navbar .sign-up-btn:hover {
+    background-color: #fd9583;
+    color: #e74528;
+  }
+  #home {
+    width: 100%;
+    height: 100vh;
+  }
+  #bg-video {
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    height: 100vh;
+  }
+
+  .video-overlay {
+    position: absolute;
+    background-color: rgba(35, 45, 57, 0.8);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .home .home-content{
+    position: absolute;
+    top: 15pc;
+    left: 23pc;
+    color: white;
+  }
+
+  .home .home-content h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .home .home-content h1{
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .btn{
+    background-color: #e74528;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 10%;
+    position: absolute;
+    top: 26pc;
+    left: 36pc;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .btn:hover{
+    opacity: 0.7;
+  }
+
+  .f16{
+    font-size: 16px;
+  }
+
+  #about {
+    width: 100%;
+    height: 100vh;
+  }
+  .content{
+    text-align: center;
+    margin-top: 150px;
+  }
+  .content .heading{
+    font-size: 25px;
+  }
+  .content .logo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .content .para{
+    color: #6a6a6a;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 40%;
+    margin: auto;
+  }
+
+  .plans{
+    width: 80%;
+    margin: auto;
+  }
+  .plans .plan{
+    width: 48%;
+    display: inline-block;
+    margin-top: 50px;
+  }
+  .plans .plan .left{
+    float: left;
+    margin-right: 25px;
+  }
+
+  .plans .plan .right p{
+    color: #6a6a6a;
+    font-size: 16px;
+  }
+  .membership{
+    background-image: url(./assets/mem-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 60vh;
+    width: 100%;
+  }
+
+  .membership .content{
+    padding: 0 210px;
+    padding-top: 150px;
+  }
+
+  .membership .content h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+
+  .membership .content p{
+    color: white;
+    font-size: 18px;
+  }
+
+  .membership .content .btn{
+    position: absolute;
+    margin-top: -115px;
+  }
+
+  .classes {
+    width: 100%;
+    height: 160vh;
+    position: absolute;
+    margin-top: 30pc;
+  }
+  .classes .right-div {
+    float: right;
+    width: 55%;
+    margin-top: 100px;
+    margin-right: 20px;
+  }
+  .classes .right-div img {
+    width: 85%;
+  }
+  .classes .right-div .data h1 {
+    margin: 20px 0;
+  }
+  .classes .right-div .data p {
+    color: #7a7a7a;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  .classes .left-div {
+    float: left;
+    width: 43%;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .classes .left-div .box {
+    width: 50%;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    background-color: white;
+    padding: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .classes .left-div .r {
+    float: right;
+    margin-top: -12px;
+    font-size: 12px;
+    margin-right: 35px;
+  }
+  .classes .left-div .l {
+    float: left;
+    margin-top: -19px;
+  }
+  .m-27 {
+    margin-right: 27px;
+  }
+  .sub {
+    background-color: #e74528 !important;
+    color: white;
+    font-weight: bolder;
+    height: 0vh;
+    border-radius: 10px;
+  }
+  .sub .h{
+    margin-top: -11px;
+  }
+ 
+  #schedule{
+    height: 150vh;
+    width: 100%;
+    margin-top: 95pc;
+    background-image: url(./assets/schedule-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .schedule .week{
+    margin: auto;
+    width: fit-content;
+    margin-top: 80px;
+  }
+  .day{
+    display: inline-block;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .day:hover{
+    color: #e74528;
+  }
+  .slash{
+    color: white;
+    font-weight: bolder;
+    margin: 0 15px;
+    font-size: 20px;
+  }
+  .schedule table{
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .schedule table, tr, td{
+    border: 2px solid white;
+    border-collapse: collapse;
+  }
+  .schedule table tr{
+    height: 15vh;
+  }
+  .schedule table tr td{
+    width: 15%;
+  }
+
+  #trainer{
+    height: 130vh;
+    width: 100%;
+  }
+  .trainer .main-box{
+    width: 90%;
+    margin: auto;
+  }
+
+  .trainer .main-box .box1{
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    width: 22%;
+    background-color: white;
+    padding: 40px;
+    display: inline-block;
+    margin-right: 30px;
+  }
+  .trainer .main-box .box1 .image{
+    margin-left: -10px;
+    margin-bottom: 20px;
+  }
+  
+  .trainer .main-box .box1 span{
+    font-weight: bolder;
+  }
+  .trainer .main-box .box1 h1{
+    margin: 10px 0;
+  }
+  .trainer .main-box .box1 p{
+    color: #7a7a7a;
+    line-height: 1.5;
+  }
+  .social-icons ul li{
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .contact {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .contact .main {
+    width: 100%;
+  }
+
+  .contact .main .map {
+    float: left;
+    width: 50%;
+  }
+
+  .contact .main .map iframe {
+    width: 100%;
+    height: 600px;
+  }
+  .contact .main .form {
+    background-image: url(./assets/contact-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    float: right;
+    height: 600px;
+  }
+
+  .contact .main .form .main-container {
+    background-color: #fff;
+    width: 75%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+  }
+
+  .contact .main .form .main-container input {
+    color: #7a7a7a;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 40%;
+    height: 40px;
+    outline: none;
+    line-height: 40px;
+    padding: 0px 10px;
+    margin-left: 17px;
+    margin-top: 40px;
+  }
+  
+  .contact .main .form .main-container input::placeholder{
+    color: #7a7a7a;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+  
+  footer{
+    text-align: center;
+    background-color: #fff;
+    height: 8vh;
+    margin-top: 12px;
+  }
+  footer p{
+    font-size: 15px;
+    color: #000;
+  }
